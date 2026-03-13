@@ -73,17 +73,11 @@ if pagina == "Inicio":
 </p>
 """, unsafe_allow_html=True)
 
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
     st.write("""
-La inteligencia artificial (IA) está transformando profundamente la educación y especialmente los procesos de evaluación y detección temprana de dificultades de aprendizaje.
+La inteligencia artificial (IA) se ha convertido en una de las tecnologías más influyentes en el ámbito educativo contemporáneo. Su capacidad para analizar grandes volúmenes de datos, identificar patrones complejos y generar predicciones ha abierto nuevas posibilidades para mejorar los procesos de enseñanza y aprendizaje.
 
-Tradicionalmente, la identificación de trastornos del aprendizaje dependía de la observación docente y de pruebas estandarizadas.
-
-La IA permite analizar grandes volúmenes de datos educativos, identificar patrones complejos y facilitar intervenciones pedagógicas más tempranas y personalizadas.
+En el campo de la psicopedagogía, la IA está siendo utilizada para apoyar la detección temprana de trastornos del aprendizaje, permitiendo identificar señales que tradicionalmente podían pasar desapercibidas en los métodos de evaluación convencionales.
 """)
-
-    st.markdown('</div>', unsafe_allow_html=True)
 
 # ---------------- INTRODUCCIÓN ----------------
 
@@ -92,11 +86,11 @@ elif pagina == "Introducción":
     st.header("Introducción")
 
     st.write("""
-Los trastornos del aprendizaje representan uno de los principales desafíos en los sistemas educativos.
+Los trastornos del aprendizaje constituyen una problemática significativa dentro del sistema educativo. Estas dificultades pueden manifestarse en procesos como la lectura, escritura, razonamiento matemático o atención.
 
-Muchas veces las dificultades en lectura, escritura o atención no se identifican a tiempo.
+Tradicionalmente, su diagnóstico dependía de evaluaciones psicopedagógicas, observación docente y pruebas estandarizadas. Sin embargo, estos métodos pueden requerir largos periodos de observación.
 
-La inteligencia artificial permite analizar patrones de comportamiento académico y detectar señales tempranas que podrían pasar desapercibidas mediante métodos tradicionales.
+La inteligencia artificial permite analizar datos educativos como resultados académicos, tiempos de respuesta en tareas digitales, patrones de error y comportamiento en plataformas educativas, lo que facilita identificar tempranamente posibles dificultades.
 """)
 
 # ---------------- TRASTORNOS ----------------
@@ -106,19 +100,23 @@ elif pagina == "Trastornos del aprendizaje":
     st.header("Trastornos del aprendizaje")
 
     st.write("""
-Los trastornos del aprendizaje son dificultades específicas en procesos cognitivos relacionados con la adquisición del conocimiento.
+Los trastornos del aprendizaje son alteraciones en procesos cognitivos que afectan la adquisición y uso de habilidades académicas.
 
-Ejemplos:
+Entre los más comunes se encuentran:
 
-• **Dislexia:** dificultades en lectura.  
-• **Discalculia:** problemas en razonamiento matemático.  
-• **TDAH:** déficit de atención e hiperactividad.
+**Dislexia**
+- Dificultad en la lectura y decodificación de palabras.
+- Problemas en fluidez lectora y comprensión.
 
-Consecuencias:
+**Discalculia**
+- Dificultades en el razonamiento matemático.
+- Problemas para comprender conceptos numéricos.
 
-- Bajo rendimiento escolar  
-- Problemas de autoestima  
-- Riesgo de abandono académico
+**TDAH**
+- Dificultades para mantener la atención.
+- Conductas impulsivas e hiperactividad.
+
+Estas condiciones pueden generar consecuencias como bajo rendimiento escolar, dificultades emocionales y disminución de la autoestima.
 """)
 
 # ---------------- DETECCIÓN TEMPRANA ----------------
@@ -128,15 +126,16 @@ elif pagina == "Detección temprana":
     st.header("Detección temprana")
 
     st.write("""
-La detección temprana consiste en identificar señales iniciales de dificultades antes de que se conviertan en problemas académicos graves.
+La detección temprana se refiere a la identificación oportuna de señales que indican posibles dificultades en el aprendizaje.
 
-La inteligencia artificial puede:
+La inteligencia artificial puede analizar:
 
-- Analizar datos de tareas
-- Detectar patrones de error
-- Evaluar comportamiento digital
+- Resultados académicos
+- Interacciones en plataformas educativas
+- Patrones de error en tareas escolares
+- Ritmo de aprendizaje
 
-Esto permite intervenciones educativas más rápidas.
+Esto permite generar alertas tempranas que facilitan intervenciones educativas más rápidas y eficaces.
 """)
 
 # ---------------- EDUCACIÓN INCLUSIVA ----------------
@@ -146,13 +145,14 @@ elif pagina == "Educación inclusiva":
     st.header("Educación inclusiva")
 
     st.write("""
-La educación inclusiva busca garantizar que todos los estudiantes tengan oportunidades de aprendizaje.
+La educación inclusiva busca garantizar que todos los estudiantes tengan acceso a oportunidades de aprendizaje independientemente de sus capacidades o contextos sociales.
 
-La IA contribuye mediante:
+La IA contribuye a este enfoque mediante:
 
-- Personalización del aprendizaje
-- Identificación de necesidades educativas
-- Reducción de sesgos humanos
+- Personalización de contenidos educativos
+- Adaptación del ritmo de aprendizaje
+- Identificación de necesidades educativas específicas
+- Generación de estrategias pedagógicas diferenciadas
 """)
 
 # ---------------- ÉTICA ----------------
@@ -164,13 +164,14 @@ elif pagina == "Ética en IA":
     st.write("""
 El uso de inteligencia artificial en educación plantea desafíos éticos importantes.
 
-Principios fundamentales:
+Entre los principales aspectos a considerar se encuentran:
 
-- Privacidad de datos
-- Transparencia en algoritmos
-- Uso responsable de información educativa
+- Protección de la privacidad de datos estudiantiles
+- Transparencia en los algoritmos utilizados
+- Prevención de sesgos algorítmicos
+- Uso responsable de la tecnología
 
-La IA debe ser complemento del docente, no reemplazo.
+Es fundamental que la IA sea utilizada como **herramienta complementaria del docente**, evitando reemplazar la interacción humana en el proceso educativo.
 """)
 
 # ---------------- BENEFICIOS ----------------
@@ -180,12 +181,13 @@ elif pagina == "Beneficios de la IA":
     st.header("Beneficios de la Inteligencia Artificial")
 
     st.write("""
-Beneficios principales:
+Entre los beneficios más importantes de la IA en la educación se encuentran:
 
-• Mayor precisión diagnóstica  
-• Intervenciones tempranas  
-• Personalización del aprendizaje  
-• Evaluación continua del desempeño
+- Mayor precisión en la identificación de dificultades de aprendizaje.
+- Intervenciones educativas más tempranas.
+- Personalización del aprendizaje según las necesidades del estudiante.
+- Evaluación continua del progreso académico.
+- Apoyo en la toma de decisiones pedagógicas.
 """)
 
 # ---------------- DESAFÍOS ----------------
@@ -195,12 +197,13 @@ elif pagina == "Desafíos":
     st.header("Desafíos del uso de IA")
 
     st.write("""
-Principales desafíos:
+A pesar de sus beneficios, la implementación de la IA en educación enfrenta diversos desafíos:
 
-- Sesgos algorítmicos
-- Privacidad de datos
-- Dependencia tecnológica
-- Necesidad de capacitación docente
+- Riesgo de sesgos algorítmicos
+- Protección de datos personales
+- Dependencia excesiva de la tecnología
+- Brecha digital entre instituciones educativas
+- Falta de capacitación docente en herramientas tecnológicas
 """)
 
 # ---------------- PERSPECTIVAS ----------------
@@ -210,11 +213,12 @@ elif pagina == "Perspectivas futuras":
     st.header("Perspectivas futuras")
 
     st.write("""
-Las investigaciones futuras se centran en:
+Las investigaciones futuras buscan mejorar la integración de la inteligencia artificial en educación mediante:
 
-- Evaluar efectividad a largo plazo
-- Adaptar herramientas a distintos contextos
-- Integrar IA con neurociencia y gamificación
+- Desarrollo de algoritmos más transparentes
+- Integración con neurociencia y psicología educativa
+- Evaluación de impacto a largo plazo
+- Adaptación a diferentes contextos culturales y educativos
 """)
 
 # ---------------- PERCEPCIÓN DOCENTE ----------------
@@ -224,13 +228,13 @@ elif pagina == "Percepción docente":
     st.header("Percepción y rol de los docentes")
 
     st.write("""
-Los docentes son clave en la integración de IA.
+Los docentes desempeñan un papel fundamental en la integración de la inteligencia artificial en el aula.
 
-Funciones principales:
+Su rol incluye:
 
-- Interpretar datos generados por IA
-- Diseñar estrategias pedagógicas
-- Garantizar uso ético de la tecnología
+- Interpretar los resultados generados por sistemas de IA
+- Diseñar intervenciones pedagógicas personalizadas
+- Garantizar un uso ético y responsable de la tecnología
 """)
 
 # ---------------- CONCEPTOS CLAVE ----------------
@@ -266,43 +270,45 @@ elif pagina == "Conclusiones":
     st.header("Conclusiones")
 
     st.write("""
-La inteligencia artificial mejora la detección temprana de trastornos del aprendizaje.
+La inteligencia artificial representa una herramienta con gran potencial para mejorar la detección temprana de trastornos del aprendizaje.
 
-Permite intervenciones más rápidas y contribuye a una educación inclusiva.
+Su capacidad para analizar datos educativos permite identificar patrones complejos que facilitan intervenciones pedagógicas oportunas.
 
-Sin embargo, su uso debe mantener un equilibrio entre innovación tecnológica y valores humanos.
+Sin embargo, su implementación debe realizarse de manera ética, garantizando siempre el papel central del docente en el proceso educativo.
 """)
 
 # ---------------- REFERENCIAS ----------------
 
 elif pagina == "Referencias":
 
-    st.header("Referencias")
+    st.header("Referencias académicas")
 
-    articulo = st.selectbox(
-    "Selecciona un artículo:",
-    [
-    "Impacto de la IA en la detección temprana",
-    "IA y aprendizaje personalizado",
-    "Gamificación y detección temprana",
-    "Desafíos éticos de la IA"
-    ]
-    )
+    with st.expander("1. Sphaera E. (2024)"):
+        st.write("Impacto de la realidad virtual en la terapia de trastornos de ansiedad.")
 
-    if articulo == "Impacto de la IA en la detección temprana":
+    with st.expander("2. Alejandra P & Cevallos E. (2024)"):
+        st.write("Modelo basado en IA para detección temprana de dificultades lectoras.")
 
-        st.info("Uso de machine learning para identificar dificultades de aprendizaje.")
+    with st.expander("3. Espinosa P. (2024)"):
+        st.write("Impacto de la inteligencia artificial en la detección temprana de trastornos del aprendizaje.")
 
-    if articulo == "IA y aprendizaje personalizado":
+    with st.expander("4. García M. (2025)"):
+        st.write("La inteligencia artificial en la educación: hacia un aprendizaje personalizado.")
 
-        st.info("Los sistemas inteligentes adaptan el contenido al ritmo del estudiante.")
+    with st.expander("5. NeurekaLAB (2023)"):
+        st.write("Gamificación e inteligencia artificial para detección temprana de trastornos del aprendizaje.")
 
-    if articulo == "Gamificación y detección temprana":
+    with st.expander("6. Verzosi P. (2025)"):
+        st.write("Uso de IA para potenciar el aprendizaje en educación infantil.")
 
-        st.info("Plataformas educativas utilizan juegos para evaluar habilidades cognitivas.")
+    with st.expander("7. Vargas G. (2024)"):
+        st.write("La inteligencia artificial y las estrategias de enseñanza-aprendizaje.")
 
-    if articulo == "Desafíos éticos de la IA":
+    with st.expander("8. Gómez A. (2024)"):
+        st.write("Desafíos éticos de la inteligencia artificial en la personalización del aprendizaje.")
 
-        st.info("Privacidad de datos y sesgos algorítmicos son retos importantes.")
-   
-    
+    with st.expander("9. Martínez B. (2025)"):
+        st.write("IA en procesos de enseñanza-aprendizaje: retos y oportunidades.")
+
+    with st.expander("10. Vaca P. (2025)"):
+        st.write("Analíticas del aprendizaje para identificación temprana de estudiantes en riesgo.")
